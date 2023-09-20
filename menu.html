@@ -26,6 +26,11 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Lightbox css -->
+    <link href="
+    https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css
+    " rel="stylesheet">
+
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -38,7 +43,7 @@
                 <div class="d-inline-flex align-items-center justify-content-center">
                     <i class="bi bi-envelope fs-1 text-primary me-3"></i>
                     <div class="text-start">
-                        <h6 class="text-uppercase mb-1">Email Us</h6>
+                        <h6 class="text-uppercase mb-1">อีเมล</h6>
                         <span>tortoeycoffee.@gmail.com</span>
                     </div>
                 </div>
@@ -46,7 +51,7 @@
             <div class="col-lg-4 text-center bg-primary border-inner py-3">
                 <div class="d-inline-flex align-items-center justify-content-center">
                     <a href="index.html" class="navbar-brand">
-                        <h1 class="m-0 text-uppercase text-white"></i>Tor.Toey Vintage Coffee</h1>
+                        <h2 class="m-0 text-uppercase text-white"></i>Tor.Toey Vintage Coffee</h2>
                     </a>
                 </div>
             </div>
@@ -74,9 +79,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto mx-lg-auto py-0">
-                <a href="index.html" class="nav-item nav-link active">หน้าแรก</a>
+                <a href="index.html" class="nav-item nav-link">หน้าแรก</a>
                 <a href="about.html" class="nav-item nav-link">เกี่ยวกับเรา</a>
-                <a href="menu.html" class="nav-item nav-link">เมนู</a>
+                <a href="menu.html" class="nav-item nav-link active">เมนู</a>
                 <a href="contact.html" class="nav-item nav-link">ช่องทางการสั่งซื้อ</a>
                     </div>
         </div>
@@ -91,8 +96,8 @@
     <div class="container-fluid about py-5">
         <div class="container">
             <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
-                <h2 class="text-primary font-secondary">Menu & Pricing</h2>
-                <h1 class="display-4 text-uppercase">Explore Our drink</h1>
+                <h2 class="text-primary font-secondary">เมนู & ราคา</h2>
+                <!-- <h1 class="display-4 text-uppercase">Explore Our drink</h1> -->
             </div>
             <div class="tab-class text-center">
                 <ul class="nav nav-pills d-inline-flex justify-content-center bg-dark text-uppercase border-inner p-4 mb-5">
@@ -117,49 +122,81 @@
                         <div class="row g-3">
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
-                                    <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-1.jpg" alt="" style="width: 150px; height: 85px;">
+                                    <div class="mr-1">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/iced-thai-milk-tea-cup-1-1200x800-crop.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="ชานมเย็น"
+                                        >
+                                            <img class="example-image" src="img/iced-thai-milk-tea-cup-1-1200x800-crop.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/iced-thai-milk-tea-cup-1-1200x800-crop.jpg" alt="" style="width: 100px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
-                                    <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-2">
                                         <h5 class="text-uppercase">ชานมเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>---------------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-1.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/darkcho.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="ชาเย็นช็อกโก้"
+                                        >
+                                            <img class="example-image" src="img/darkcho.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/darkcho.jpg" alt="" style="width: 100px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">ชาเย็นช็อกโก้</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-1.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/green tea.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="ชาเขียวเย็น"
+                                        >
+                                            <img class="example-image" src="img/green tea.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/green tea.jpg" alt="" style="width: 100px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">ชาเขียวเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-1.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/lime tea.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="ชามะนาวเย็น"
+                                        >
+                                            <img class="example-image" src="img/lime tea.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/lime tea.jpg" alt="" style="width: 100px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">ชามะนาวเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
@@ -171,60 +208,100 @@
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-2.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/v coffee.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="กาแฟโบราณเย็น"
+                                        >
+                                            <img class="example-image" src="img/v coffee.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/v coffee.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">กาแฟโบราณเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-2.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/v coffee.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="เนสกาแฟเย็น"
+                                        >
+                                            <img class="example-image" src="img/v coffee.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/v coffee.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">เนสกาแฟเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-2.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/v coffee.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="เนสกาแฟผสมโอวันติน"
+                                        >
+                                            <img class="example-image" src="img/v coffee.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/v coffee.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">เนสกาแฟผสมโอวันติน</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-2.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/v coffee.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="เนสกาแฟผสมโกโก้"
+                                        >
+                                            <img class="example-image" src="img/v coffee.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/v coffee.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">เนสกาแฟผสมโกโก้</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div> <a href=""></a>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-2.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/coffee.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="เนสกาแฟผสมไวท์มอลต์"
+                                        >
+                                            <img class="example-image" src="img/coffee.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/coffee.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">เนสกาแฟผสมไวท์มอลต์</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
@@ -236,60 +313,100 @@
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-3.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/milk p.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="นมชมพูเย็น"
+                                        >
+                                            <img class="example-image" src="img/milk p.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/milk p.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">นมชมพูเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-3.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/darkcho.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="โกโก้เย็น"
+                                        >
+                                            <img class="example-image" src="img/darkcho.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/darkcho.jpg " alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">โกโก้เย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-3.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/darkcho.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="โอวัลตินไวท์มอลต์เย็น"
+                                        >
+                                            <img class="example-image" src="img/darkcho.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/darkcho.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
-                                        <h5 class="text-uppercase">โอวันตินไวท์มอลต์เย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <h5 class="text-uppercase">โอวัลตินไวท์มอลต์เย็น</h5>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-3.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/milk v.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="เผือกหอมนมสดเย็น"
+                                        >
+                                            <img class="example-image" src="img/milk v.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/milk v.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">เผือกหอมนมสดเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-3.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/milk g.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="แคนตาลูปนมสดเย็น"
+                                        >
+                                            <img class="example-image" src="img/milk g.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/milk g.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">แคนตาลูปนมสดเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
@@ -301,72 +418,120 @@
                             <div class="col-lg-6">
                                <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-3.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/honey lemon.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="น้ำผึ้งมะนาวเย็น"
+                                        >
+                                            <img class="example-image" src="img/honey lemon.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/honey lemon.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">น้ำผึ้งมะนาวเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-3.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/bour.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="น้ำบ๋วยเย็น"
+                                        >
+                                            <img class="example-image" src="img/bour.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/bour.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">40฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">น้ำบ๋วยเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-3.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/soda r.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="แดงมะนาวโซดาเย็น"
+                                        >
+                                            <img class="example-image" src="img/soda r.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/soda r.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">45฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">แดงมะนาวโซดาเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-3.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/soda p.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="น้ำสตอเบอร์รี่โซดามะนาวเย็น"
+                                        >
+                                            <img class="example-image" src="img/soda p.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/soda p.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">35฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">น้ำสตอเบอร์รี่โซดามะนาวเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-3.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/soda g.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="น้ำแคนตาลูปโซดามะนาวเย็น"
+                                        >
+                                            <img class="example-image" src="img/soda g.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/soda g.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">35฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">น้ำแคนตาลูปโซดามะนาวเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-3.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/soda lp.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="น้ำลิ้นจี้โซดามะนาวเย็น"
+                                        >
+                                            <img class="example-image" src="img/soda lp.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/soda lp.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">35฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">น้ำลิ้นจี้โซดามะนาวเย็น</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
+                                        <span>-----------------------------------------------------------</span>
                                     </div>
                                 </div>
                             </div>
@@ -377,13 +542,20 @@
                             <div class="col-lg-6">
                                <div class="d-flex h-100">
                                     <div class="flex-shrink-0">
-                                        <img class="img-fluid" src="img/cake-3.jpg" alt="" style="width: 150px; height: 85px;">
+                                        <a 
+                                            class="example-image-link" 
+                                            href="img/bread.jpg" 
+                                            data-lightbox="example-set" 
+                                            data-title="ขนมปังปิ้งเนยนม"
+                                        >
+                                            <img class="example-image" src="img/bread.jpg" style="width: 100px; height: 85px;" alt="small image" />
+                                        </a>
+                                        <!-- <img class="img-fluid" src="img/bread.jpg" alt="" style="width: 150px; height: 85px;"> -->
                                         <h4 class="bg-dark text-primary p-2 m-0">30฿</h4>
                                     </div>
                                     <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
                                         <h5 class="text-uppercase">ขนมปังปิ้งเนยนม</h5>
-                                        <span>----------------------------------------------------------------------------------</span>
-                                    </div>
+                                        <span>-----------------------------------------------------------</span>
                                 </div>
                             </div>
                         </div>
@@ -393,58 +565,6 @@
     <!-- Products End -->
     
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark bg-img text-secondary" style="margin-top: 235px">
-        <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-4 col-md-6 mt-lg-n5">
-                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary border-inner p-4">
-                        <a href="index.html" class="navbar-brand">
-                            <h2 class="m-0 text-uppercase text-white"><i class=""></i>Tor&Toey Vintage Coffee</h2>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-md-6">
-                    <div class="row gx-5">
-                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
-                            <h4 class="text-primary text-uppercase mb-4">Get In Touch</h4>
-                            <div class="d-flex mb-2">
-                                <i class="bi bi-geo-alt text-primary me-2"></i>
-                                <p class="mb-0">ตำบลสวนใหญ่ อำเภอเมืองนนทบุรี นนทบุรี 11000</p>
-                            </div>
-                            <div class="d-flex mb-2">
-                                <i class="bi bi-envelope-open text-primary me-2"></i>
-                                <p class="mb-0">tortoeycoffee@gmail.com</p>
-                            </div>
-                            <div class="d-flex mb-2">
-                                <i class="bi bi-telephone text-primary me-2"></i>
-                                <p class="mb-0">+012 345 67890</p>
-                            </div>
-                            
-                        </div>
-                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <h4 class="text-primary text-uppercase mb-4">Quick Links</h4>
-                            <div class="d-flex flex-column justify-content-start">
-                                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>หน้าแรก</a>
-                                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>เกี่ยวกับเรา</a>
-                                <a class="text-secondary" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>ติดต่อเรา</a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid text-secondary py-4" style="background: #111111;">
-        <div class="container text-center">
-            <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">T.T. Vintage Coffee</a>. All Rights Reserved. 
-			
-			<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-			Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">HTML</a></p>
-        </div>
-    </div>
-    <!-- Footer End -->
 
 
     <!-- Back to Top -->
@@ -458,6 +578,21 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+    <!-- Lightbox js -->
+    <script src="
+    https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js
+    "></script>
+
+    <!-- Lightbox js custom -->
+    <script>
+        lightbox.option({
+          'resizeDuration': 50,
+          maxWidth: 1000,
+          maxHeight: 550,
+          'wrapAround': true
+        });
+    </script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

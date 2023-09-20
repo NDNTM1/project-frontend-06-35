@@ -1,4 +1,7 @@
 /********** Template CSS **********/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Niramit:wght@300&family=Sriracha&display=swap');
+
 :root {
     --primary: #E88F2A;
     --secondary: #FAF3EB;
@@ -7,29 +10,32 @@
 }
 
 .font-secondary {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Kanit', 'Pacifico', cursive;
 }
 
 h1,
 h2,
 .font-weight-bold {
+    font-family: 'Kanit', 'Pacifico', cursive;
     font-weight: 700 !important;
 }
 
 h3,
 h4,
 .font-weight-semi-bold {
+    font-family: 'Kanit', 'Pacifico', cursive;
     font-weight: 600 !important;
 }
 
 h5,
 h6,
 .font-weight-medium {
+    font-family: 'Kanit', 'Pacifico', cursive;
     font-weight: 500 !important;
 }
 
 .btn {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Kanit', 'Oswald', sans-serif;
     font-weight: 600;
     transition: .5s;
 }
@@ -92,7 +98,7 @@ h6,
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Kanit', 'Oswald', sans-serif;
     padding: 30px 15px;
     font-size: 18px;
     font-weight: 500;
@@ -315,7 +321,7 @@ h6,
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Kanit', "Roboto", sans-serif;
     background-color: #fff; }
 
 p {
